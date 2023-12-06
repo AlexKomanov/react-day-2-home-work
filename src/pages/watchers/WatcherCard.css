@@ -1,0 +1,30 @@
+/* WatcherCard.css */
+.watchers-container {
+  display: flex;
+  flex-direction: row; /* Updated to row direction */
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  max-width: 200px;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+}
+
+.card img {
+  max-width: 200px; 
+}
+
+.card button {
+  margin-top: 8px;
+  cursor: pointer;
+}

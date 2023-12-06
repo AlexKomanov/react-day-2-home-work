@@ -1,0 +1,33 @@
+.season-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.season-widget {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.season-widget.light{
+    border: 5px solid aqua;
+    background-color: aqua;
+    color: darkblue;
+}
+
+.season-widget.dark{
+    border: 5px solid darkblue;
+    background-color: darkblue;
+    color: azure;
+}
+
+.season-widget img {
+    margin: auto;
+}
