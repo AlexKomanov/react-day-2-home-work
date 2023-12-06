@@ -30,20 +30,20 @@ function App() {
     <header>
       <nav>
         <h1>React Home Work</h1>
-        <NavLink to={'/'}>Home</NavLink>
-        <NavLink to={'/animals-list'}>Animals List</NavLink>
-        <NavLink to={'/season-clock'}>Season Clock</NavLink>
-        <NavLink to={'/countdown'}>Countdown</NavLink>
-        <NavLink to={'/watchers'}>Watchers</NavLink>
+        <NavLink to={'/react-day-2-home-work/'}>Home</NavLink>
+        <NavLink to={'/react-day-2-home-work/animals-list'}>Animals List</NavLink>
+        <NavLink to={'/react-day-2-home-work/season-clock'}>Season Clock</NavLink>
+        <NavLink to={'/react-day-2-home-work/countdown'}>Countdown</NavLink>
+        <NavLink to={'/react-day-2-home-work/watchers'}>Watchers</NavLink>
       </nav>
     </header>
       <main>
         <Routes>
-          <Route index element={<Home/>} />
-          <Route path="animals-list" element={<AnimalList animalsInfos={animalInfos}/>} />
-          <Route path="season-clock" element={<SeasonClock/>} />
-          <Route path="countdown" element={<Countdown startFrom={10} onDone={true} toTime={30}/>} />
-          <Route path="watchers" element={<Watcher/>} />
+          <Route path='/react-day-2-home-work'index element={<Home/>} />
+          <Route path="/react-day-2-home-work/animals-list" element={<AnimalList animalsInfos={animalInfos}/>} />
+          <Route path="/react-day-2-home-work/season-clock" element={<SeasonClock/>} />
+          <Route path="/react-day-2-home-work/countdown" element={<Countdown startFrom={10} onDone={true} toTime={30}/>} />
+          <Route path="/react-day-2-home-work/watchers" element={<Watcher/>} />
 
         </Routes>
 
